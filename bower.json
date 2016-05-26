@@ -1,7 +1,7 @@
 {
   "name": "react-fullstack-demo",
   "description": "",
-  "main": "index.js",
+  "main": "index.ejs",
   "license": "ISC",
   "homepage": "https://github.com/eikerd/react-fullstack-demo",
   "ignore": [
