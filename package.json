@@ -1,7 +1,7 @@
 {
   "name": "react-fullstack-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "our lil test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,8 +17,13 @@
   },
   "homepage": "https://github.com/eikerd/react-fullstack-demo#readme",
   "dependencies": {
-    "express": "^4.13.4",
-    "gulp": "^3.9.1",
-    "gulp-live-server": "0.0.29"
+    "express": "~4.13.4",
+    "gulp": "~3.9.1",
+    "gulp-live-server": "0.0.29",
+    "browser-sync": "~2.12.10",
+    "react": "~15.1.0",
+    "reactify": "~1.1.1",
+    "browserify": "~13.0.1",
+    "vinyl-source-stream": "~1.1.0"
   }
 }
