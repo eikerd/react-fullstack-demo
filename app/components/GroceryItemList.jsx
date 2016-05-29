@@ -2,7 +2,7 @@ var React = require('react/addons');
 
 module.exports = React.createClass({
 	render:function() {
-		return {
+		return (
 			<div>
 				<h1> Grocery Listify</h1>
 				<div>
@@ -14,6 +14,6 @@ module.exports = React.createClass({
 					}
 				</div>
 			</div>
-		}
+		)
 	}
 })
