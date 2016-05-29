@@ -15,4 +15,4 @@ var initial = [{
 	name:"Snarks",
 }];
 
-React.render(<GroceryItemList itmes={inistial}/>,app)
+React.render(<GroceryItemList items={inistial}/>,app)
