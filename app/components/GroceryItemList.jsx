@@ -5,6 +5,14 @@ module.exports = React.createClass({
 		return {
 			<div>
 				<h1> Grocery Litify</h1>
+				<div>
+					{this.props.items.map(function(item,index){
+						return (
+								{item.name}
+							)
+					})
+					}
+				</div>
 			</div>
 		}
 	}
