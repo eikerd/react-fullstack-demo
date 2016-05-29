@@ -4,11 +4,11 @@ module.exports = React.createClass({
 	render:function() {
 		return {
 			<div>
-				<h1> Grocery Litify</h1>
+				<h1> Grocery Listify</h1>
 				<div>
 					{this.props.items.map(function(item,index){
 						return (
-								{item.name}
+								<div>{item.name}</div>
 							)
 					})
 					}
