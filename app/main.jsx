@@ -1,4 +1,5 @@
-var React = require('react-addons');
+var React = require('react');
+var ReactDOM = require('react-dom');
 
 console.log("hellow JSX idio");
 
@@ -15,4 +16,4 @@ var initial = [{
 	name:"Snarks",
 }];
 
-React.render(<GroceryItemList items={initial}/>,app)
+ReactDOM.render(<GroceryItemList items={initial} />, app);
