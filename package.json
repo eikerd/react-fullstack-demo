@@ -25,12 +25,7 @@
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "reactify": "~1.1.1",
-<<<<<<< HEAD
-    "browserify": "~13.0.1",
     "vinyl-source-stream": "~1.1.0",
     "react-dom": "~15.1.0"
-=======
-    "vinyl-source-stream": "~1.1.0"
->>>>>>> 2d09f1a99d4b50d8163d1d805a77d22f6c94a77a
   }
 }
