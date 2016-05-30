@@ -14,7 +14,7 @@ gulp.task('live-server', function(){
 gulp.task('bundle',function() {
 	return browerify({
 		entries:'app/main.jsx',
-		debug:true
+		debug:true,
 	})
 	.transform(reactify)
 	.bundle()
